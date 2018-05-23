@@ -19,15 +19,15 @@
 		<div class="row center-md center-xs center-sm center-lg">
 			<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
 				<div id="login-section" class="">
-					<form action="login.php">
+					<form method='post' action="login.php">
 						<div class="input-field">
 							<div class="field">
 								<span class="fa fa-envelope"></span>
-								<input type="text" name="username" placeholder="username or e-mail">
+								<input type="text" name="username" placeholder="username or e-mail" required>
 							</div>
 							<div class="field">
 								<span class="fa fa-lock"></span>
-								<input type="password" name="password" placeholder="password...">
+								<input type="password" name="password" placeholder="password..." required>
 							</div>
 						</div>
 						<p class="forgot end-xs end-sm end-md end-lg">forgotten password?</p>

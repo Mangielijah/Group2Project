@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,23 +19,9 @@
 	<div class="container" id="login-box">
 		<div class="row center-md center-xs center-sm center-lg">
 			<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-				<div id="login-section" class="">
-					<form method="post" action="login.php">
-						<div class="input-field">
-							<div class="field">
-								<span class="fa fa-envelope"></span>
-								<input type="text" name="username" placeholder="username or e-mail" required>
-							</div>
-							<div class="field">
-								<span class="fa fa-lock"></span>
-								<input type="password" name="password" placeholder="password..." required>
-							</div>
-						</div>
-						<p class="forgot end-xs end-sm end-md end-lg">forgotten password?</p>
-						<div class="submit-field">
-							<button type="submit" class="login-button"><? echo'LOG IN'; ?></button>
-						</div>
-					</form>
+				<div >
+					<h2 class="welcome">EASY HEALTH PLATFORM</h2>
+					<h3 class="welcome">Welcome<?php echo $_POST['username'] ?></h3>
 				</div>
 			</div>
 		</div>
@@ -43,8 +30,8 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 center-xs center-sm center-md center-lg">
-					<p class="footer-text">&copy; <?php echo '2018 - CSC 214 GROUP 2' ?></p>
-					<p style="font-size:10px;"><?php echo 'Albert, Romaric, Wilson, Romario, Tipa, Elijah, Steve, Marius, Elenor'?></p>
+					<p class="footer-text">&copy; 2018 - CSC 214 GROUP 2</p>
+					<p style="font-size:10px;">Albert, Romaric, Wilson, Romario, Tipa, Elijah, Steve, Marius, Elenor'</p>
 				</div>
 			</div>
 		</div>
