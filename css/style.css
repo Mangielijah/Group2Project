@@ -60,7 +60,7 @@ input[type='text'], input[type='password']{
 	font-size: 14px;
 	color:  #060142;
 }
-button{
+.login-button{
 	border:none;
 	padding:6px 34px;
 	font-size: 24px;
@@ -68,6 +68,12 @@ button{
 	background-color: #77b7fb;
 	color: #43017c;
 	text-shadow: 2px 2px 2px #000;
+	transition: 0.8s ease-in;
+	cursor: pointer;
+}
+.login-button:hover{
+	background-color: #fff;
+	color:#77b7fb;
 }
 footer{
 	position:fixed;
