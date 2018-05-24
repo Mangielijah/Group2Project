@@ -21,7 +21,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
 				<div >
 					<h2 class="welcome">EASY HEALTH PLATFORM</h2>
-					<h3 class="welcome">Welcome<?php echo $_POST['username'] ?></h3>
+					<h3 class="welcome">Welcome <?php echo $_POST['username'] ?></h3>
 				</div>
 			</div>
 		</div>
